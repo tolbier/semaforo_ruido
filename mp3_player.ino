@@ -18,7 +18,7 @@
 ---------------    
     Archivo: mp3_player.ino
     Fecha:15-MAR-2013
-    Version: 0.73
+    Version: 0.74
     Autor: Lluis Toyos - info@korama.es - KORAMA Soluciones Digitales - http://korama.es
     NOTA:
         Este codigo esta basado en el programa MP3 Player de Nathan Seidle  - Sparkfun

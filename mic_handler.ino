@@ -18,7 +18,7 @@
 ---------------    
     Archivo: mic_handler.ino
     Fecha:15-MAR-2013
-    Version: 0.73
+    Version: 0.74
     Autor: Lluis Toyos - info@korama.es - KORAMA Soluciones Digitales - http://korama.es
 
     Este codigo se encarga de manejar los datos recibidos desde el Sensor de Sonido 

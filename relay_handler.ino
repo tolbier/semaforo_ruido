@@ -18,7 +18,7 @@
 ---------------    
     Archivo: relay_handler.ino
     Fecha:15-MAR-2013
-    Version: 0.73
+    Version: 0.74
     Autor: Lluis Toyos - info@korama.es - KORAMA Soluciones Digitales - http://korama.es
 
     La funcion de este codigo es manejar los reles del Semaforo de Ruido.
