@@ -197,20 +197,7 @@ void playLevelWarningMp3(int level){
   
 //  sprintf(trackName, "lev%d_%03d.mp3", level, trackNumber);
 }
-void loop_mp3_player(){
 
-  //Let's play a track of a given number
-  sprintf(trackName, "lev3_%03d.mp3", trackNumber); //Splice the new file number into this file name
-  playMP3(trackName); //Go play trackXXX.mp3
-
-  //Once we are done playing or have exited the playback for some reason, decide what track to play next
-  trackNumber++; //When we loop, advance to next track!
-
-  if(trackNumber > 100) {
-    Serial.println("Whoa there cowboy!"); //Soft limit. We shouldn't be trying to open past track 100.
-    while(1);
-  }
-}
 
 void playMP3Level(int level){
   int numberOfFiles = numberOfFilesPerLevel[level];
