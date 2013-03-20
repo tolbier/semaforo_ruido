@@ -22,7 +22,7 @@ El esquema está disponible en el [directorio esquema](/esquema/) de este proyec
 Servicio de Instalación
 -----------------------
 Los centros educativos que estén interesados en contratar la instalación del “Semáforo de Ruido” pueden ponerse en contacto con :
-* KORAMA Soluciones Digitales
+* [KORAMA Soluciones Digitales](http://korama.es)
 * Email: info@korama.es
 * Teléfono:  626568403 – 985947698
 
