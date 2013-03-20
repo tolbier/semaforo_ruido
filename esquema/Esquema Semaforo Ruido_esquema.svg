@@ -83,22 +83,6 @@
    </g>
   </g>
  </g>
- <g partID="9648550">
-  <g transform="translate(1729.93,395.366)">
-   <g transform="matrix(0,1,-1,0,0,0)">
-    <g  id="schematic">
-     <rect width="0.208" x="11.679" y="0.843"  height="0.208" id="connector1terminal"/>
-     <rect width="0.208" x="11.695" y="64.632"  height="0.207" id="connector0terminal"/>
-     <rect width="1.375" x="11.075" y="0.739"  height="10.338" id="connector1pin"/>
-     <rect width="1.375" x="11.075" y="53.319"  height="11.766" id="connector0pin"/>
-     <line fill="none"  stroke="#000000" stroke-linecap="round" y1="40.737" stroke-width="2.4" x1="11.799" y2="64.442" x2="11.799"/>
-     <line fill="none"  stroke="#000000" stroke-linecap="round" y1="42.415" stroke-width="2.4" x1="22.217" y2="42.415" x2="1.38"/>
-     <line fill="none"  stroke="#000000" stroke-linecap="round" y1="1.049" stroke-width="2.4" x1="11.799" y2="23.25" x2="11.799"/>
-     <polygon fill="none" points="11.655,41.532,6.387,32.41,1.12,23.287,11.655,23.287,22.189,23.287,16.922,32.41"  stroke="#000000" stroke-linejoin="round" stroke-linecap="round" stroke-width="2.4"/>
-    </g>
-   </g>
-  </g>
- </g>
  <g partID="9834280">
   <g transform="translate(1581.11,395.366)">
    <g transform="matrix(0,1,-1,0,0,0)">
@@ -115,8 +99,24 @@
    </g>
   </g>
  </g>
+ <g partID="9648550">
+  <g transform="translate(1729.93,395.366)">
+   <g transform="matrix(0,1,-1,0,0,0)">
+    <g  id="schematic">
+     <rect width="0.208" x="11.679" y="0.843"  height="0.208" id="connector1terminal"/>
+     <rect width="0.208" x="11.695" y="64.632"  height="0.207" id="connector0terminal"/>
+     <rect width="1.375" x="11.075" y="0.739"  height="10.338" id="connector1pin"/>
+     <rect width="1.375" x="11.075" y="53.319"  height="11.766" id="connector0pin"/>
+     <line fill="none"  stroke="#000000" stroke-linecap="round" y1="40.737" stroke-width="2.4" x1="11.799" y2="64.442" x2="11.799"/>
+     <line fill="none"  stroke="#000000" stroke-linecap="round" y1="42.415" stroke-width="2.4" x1="22.217" y2="42.415" x2="1.38"/>
+     <line fill="none"  stroke="#000000" stroke-linecap="round" y1="1.049" stroke-width="2.4" x1="11.799" y2="23.25" x2="11.799"/>
+     <polygon fill="none" points="11.655,41.532,6.387,32.41,1.12,23.287,11.655,23.287,22.189,23.287,16.922,32.41"  stroke="#000000" stroke-linejoin="round" stroke-linecap="round" stroke-width="2.4"/>
+    </g>
+   </g>
+  </g>
+ </g>
  <g partID="9626070">
-  <g transform="translate(154.543,342.186)">
+  <g transform="translate(154.544,342.186)">
    <g  id="schematic" stroke-width="0">
     <rect width="212.599" x="22.4598" y="22.4598" fill="none"  height="425.197" stroke="#000000" stroke-linejoin="round" stroke-linecap="round" stroke-width="2.4"/>
     <text x="128.759" y="64.9795" font-family="DroidSans" fill="#000000"  text-anchor="middle" stroke="none" id="label" stroke-width="0" font-size="18">Arduino</text>
@@ -247,7 +247,7 @@
   </g>
  </g>
  <g partID="9810240">
-  <g transform="translate(2098.16,484.745)">
+  <g transform="translate(2098.17,484.745)">
    <g style="display:inline" id="schematic" transform="matrix(1, 0, 0, 1, 14.4, 0)">
     <g transform="matrix(1, 0, 0, 1, -14.4, 0)">
      <rect width="1.5144" x="34.1064" y="0.9896" height="7.8264" id="connector1pin"/>
@@ -442,8 +442,8 @@
    </g>
   </g>
  </g>
- <g partID="9655220">
-  <g transform="translate(2084.01,512.715)">
+ <g partID="9826390">
+  <g transform="translate(1892.67,512.715)">
    <g  id="schematic">
     <rect width="1.893" x="5.474" y="1.089"  height="9.783" id="connector0pin"/>
     <rect width="0.866" x="5.952" y="0.406"  height="0.686" id="connector0terminal"/>
@@ -455,8 +455,8 @@
    </g>
   </g>
  </g>
- <g partID="9826390">
-  <g transform="translate(1892.67,512.715)">
+ <g partID="9655220">
+  <g transform="translate(2084.01,512.715)">
    <g  id="schematic">
     <rect width="1.893" x="5.474" y="1.089"  height="9.783" id="connector0pin"/>
     <rect width="0.866" x="5.952" y="0.406"  height="0.686" id="connector0terminal"/>
@@ -659,7 +659,7 @@
   </g>
  </g>
  <g partID="9654790">
-  <g transform="translate(1910.59,195.066)">
+  <g transform="translate(1910.59,195.065)">
    <g transform="matrix(0,-1,1,0,0,0)">
     <g  id="schematic">
      <line fill="none"  stroke="#000000" stroke-linejoin="round" id="connector0pin" stroke-linecap="round" y1="9.72302" stroke-width="1.99997" x1="0.997984" y2="9.72302" x2="17.8447"/>
@@ -675,7 +675,7 @@
   </g>
  </g>
  <g partID="9645290">
-  <g transform="translate(1719.25,195.066)">
+  <g transform="translate(1719.25,195.065)">
    <g transform="matrix(0,-1,1,0,0,0)">
     <g  id="schematic">
      <line fill="none"  stroke="#000000" stroke-linejoin="round" id="connector0pin" stroke-linecap="round" y1="9.72302" stroke-width="1.99997" x1="0.997984" y2="9.72302" x2="17.8447"/>
@@ -691,7 +691,7 @@
   </g>
  </g>
  <g partID="9643690">
-  <g transform="translate(1570.43,195.066)">
+  <g transform="translate(1570.43,195.065)">
    <g transform="matrix(0,-1,1,0,0,0)">
     <g  id="schematic">
      <line fill="none"  stroke="#000000" stroke-linejoin="round" id="connector0pin" stroke-linecap="round" y1="9.72302" stroke-width="1.99997" x1="0.997984" y2="9.72302" x2="17.8447"/>
@@ -707,7 +707,7 @@
   </g>
  </g>
  <g partID="9643590">
-  <g transform="translate(1325.54,395.629)">
+  <g transform="translate(1325.54,395.628)">
    <g transform="matrix(-1,0,0,-1,0,0)">
     <g  id="schematic">
      <line fill="none"  stroke="#000000" stroke-linejoin="round" id="connector0pin" stroke-linecap="round" y1="9.72302" stroke-width="1.99997" x1="0.997984" y2="9.72302" x2="17.8447"/>
@@ -910,7 +910,7 @@
   </g>
  </g>
  <g partID="9669300">
-  <g transform="translate(1178.76,769.766)">
+  <g transform="translate(1178.77,769.766)">
    <g  id="schematic">
     <rect width="1.894" x="17.797" y="1.824"  height="9.783" id="connector2pin"/>
     <rect width="0.867001" x="18.276" y="1.14"  height="0.684" id="connector2terminal"/>
@@ -927,7 +927,7 @@
   </g>
  </g>
  <g partID="9667610">
-  <g transform="translate(1178.76,684.727)">
+  <g transform="translate(1178.77,684.726)">
    <g  id="schematic">
     <rect width="1.894" x="17.797" y="1.824"  height="9.783" id="connector2pin"/>
     <rect width="0.867001" x="18.276" y="1.14"  height="0.684" id="connector2terminal"/>
@@ -944,7 +944,7 @@
   </g>
  </g>
  <g partID="9661550">
-  <g transform="translate(1178.76,599.687)">
+  <g transform="translate(1178.77,599.687)">
    <g  id="schematic">
     <rect width="1.894" x="17.797" y="1.824"  height="9.783" id="connector2pin"/>
     <rect width="0.867001" x="18.276" y="1.14"  height="0.684" id="connector2terminal"/>
@@ -983,13 +983,6 @@
    </g>
   </g>
  </g>
- <g partID="9867280">
-  <g transform="translate(2070.5,1207.83)">
-   <g  id="schematic">
-    <text x="102.387" y="9.69981" fill="#000000" font-family="DroidSans"  text-anchor="middle" xmlns:xml="http://www.w3.org/XML/1998/namespace" id="label" xml:space="preserve" stroke-width="0" font-size="10.7776">Author: Lluis Toyos</text>
-   </g>
-  </g>
- </g>
  <g partID="9867330">
   <g transform="translate(1873.8,1228.63)">
    <g  id="schematic">
@@ -1004,8 +997,36 @@
    </g>
   </g>
  </g>
+ <g partID="9867280">
+  <g transform="translate(2070.5,1207.83)">
+   <g  id="schematic">
+    <text x="102.387" y="9.69981" fill="#000000" font-family="DroidSans"  text-anchor="middle" xmlns:xml="http://www.w3.org/XML/1998/namespace" id="label" xml:space="preserve" stroke-width="0" font-size="10.7776">Author: Lluis Toyos</text>
+   </g>
+  </g>
+ </g>
+ <g partID="9869100">
+  <g transform="translate(1189.58,614.024)">
+   <g  id="schematic">
+    <text x="48.1601" y="12.384" fill="#000000" font-family="DroidSans"  text-anchor="middle" xmlns:xml="http://www.w3.org/XML/1998/namespace" id="label" xml:space="preserve" stroke-width="0" font-size="13.76">Volumen</text>
+   </g>
+  </g>
+ </g>
+ <g partID="9869130">
+  <g transform="translate(1187.82,706.4)">
+   <g  id="schematic">
+    <text x="68.8" y="12.384" fill="#000000" font-family="DroidSans"  text-anchor="middle" xmlns:xml="http://www.w3.org/XML/1998/namespace" id="label" xml:space="preserve" stroke-width="0" font-size="13.76">Umbral MIN</text>
+   </g>
+  </g>
+ </g>
+ <g partID="9869150">
+  <g transform="translate(1185.1,795.36)">
+   <g  id="schematic">
+    <text x="68.8" y="12.384" fill="#000000" font-family="DroidSans"  text-anchor="middle" xmlns:xml="http://www.w3.org/XML/1998/namespace" id="label" xml:space="preserve" stroke-width="0" font-size="13.76">Umbral MAX</text>
+   </g>
+  </g>
+ </g>
  <g partID="9645730">
-  <line stroke="#404040" stroke-linecap="round" y1="194.567" x1="1601.42" y2="266.026" stroke-width="2.4" x2="1601.42"/>
+  <line stroke="#404040" stroke-linecap="round" y1="194.566" x1="1601.42" y2="266.026" stroke-width="2.4" x2="1601.42"/>
  </g>
  <g partID="9645890">
   <line stroke="#404040" stroke-linecap="round" y1="194.409" x1="1325.51" y2="194.566" stroke-width="2.4" x2="1580.16"/>
@@ -1015,28 +1036,28 @@
   <line stroke="#404040" stroke-linecap="round" y1="364.646" x1="1325.04" y2="194.41" stroke-width="2.4" x2="1325.51"/>
  </g>
  <g partID="9713720">
-  <line stroke="#404040" stroke-linecap="round" y1="194.567" x1="1580.16" y2="194.567" stroke-width="2.4" x2="1728.97"/>
+  <line stroke="#404040" stroke-linecap="round" y1="194.566" x1="1580.16" y2="194.566" stroke-width="2.4" x2="1728.97"/>
  </g>
- <circle fill="black" cx="1580.16" cy="194.567" stroke="none" r="3.6" stroke-width="0"/>
- <circle fill="black" cx="1728.97" cy="194.567" stroke="none" r="3.6" stroke-width="0"/>
+ <circle fill="black" cx="1580.16" cy="194.566" stroke="none" r="3.6" stroke-width="0"/>
+ <circle fill="black" cx="1728.97" cy="194.566" stroke="none" r="3.6" stroke-width="0"/>
  <g partID="9714250">
-  <line stroke="#404040" stroke-linecap="round" y1="266.027" x1="1750.23" y2="194.567" stroke-width="2.4" x2="1750.23"/>
+  <line stroke="#404040" stroke-linecap="round" y1="266.026" x1="1750.24" y2="194.567" stroke-width="2.4" x2="1750.24"/>
  </g>
  <g partID="9714580">
-  <line stroke="#404040" stroke-linecap="round" y1="266.026" x1="1941.57" y2="194.567" stroke-width="2.4" x2="1941.57"/>
+  <line stroke="#404040" stroke-linecap="round" y1="266.026" x1="1941.57" y2="194.566" stroke-width="2.4" x2="1941.57"/>
  </g>
  <g partID="9714630">
-  <line stroke="#404040" stroke-linecap="round" y1="266.027" x1="2111.65" y2="192.43" stroke-width="2.4" x2="2109.84"/>
+  <line stroke="#404040" stroke-linecap="round" y1="266.026" x1="2111.65" y2="192.429" stroke-width="2.4" x2="2109.84"/>
  </g>
  <g partID="9714700">
-  <line stroke="#404040" stroke-linecap="round" y1="194.567" x1="1728.97" y2="194.567" stroke-width="2.4" x2="1920.31"/>
+  <line stroke="#404040" stroke-linecap="round" y1="194.566" x1="1728.98" y2="194.566" stroke-width="2.4" x2="1920.31"/>
  </g>
- <circle fill="black" cx="1728.97" cy="194.567" stroke="none" r="3.6" stroke-width="0"/>
- <circle fill="black" cx="1920.31" cy="194.567" stroke="none" r="3.6" stroke-width="0"/>
+ <circle fill="black" cx="1728.98" cy="194.566" stroke="none" r="3.6" stroke-width="0"/>
+ <circle fill="black" cx="1920.31" cy="194.566" stroke="none" r="3.6" stroke-width="0"/>
  <g partID="9714830">
-  <line stroke="#404040" stroke-linecap="round" y1="194.567" x1="1920.31" y2="192.429" stroke-width="2.4" x2="2088.58"/>
+  <line stroke="#404040" stroke-linecap="round" y1="194.566" x1="1920.31" y2="192.429" stroke-width="2.4" x2="2088.58"/>
  </g>
- <circle fill="black" cx="1920.31" cy="194.567" stroke="none" r="3.6" stroke-width="0"/>
+ <circle fill="black" cx="1920.31" cy="194.566" stroke="none" r="3.6" stroke-width="0"/>
  <g partID="9715020">
   <line stroke="#404040" stroke-linecap="round" y1="385.905" x1="1509.68" y2="385.905" stroke-width="2.4" x2="1325.04"/>
  </g>
@@ -1063,28 +1084,28 @@
   <line stroke="#404040" stroke-linecap="round" y1="534.724" x1="1601.42" y2="598.756" stroke-width="2.4" x2="1601.42"/>
  </g>
  <g partID="9746810">
-  <line stroke="#404040" stroke-linecap="round" y1="662.515" x1="1283.15" y2="652.015" stroke-width="2.4" x2="1209.61"/>
+  <line stroke="#404040" stroke-linecap="round" y1="662.515" x1="1283.16" y2="652.015" stroke-width="2.4" x2="1209.61"/>
  </g>
  <g partID="9780490">
-  <line stroke="#404040" stroke-linecap="round" y1="598.973" x1="665.575" y2="300.31" stroke-width="2.4" x2="666.607"/>
+  <line stroke="#404040" stroke-linecap="round" y1="598.973" x1="665.576" y2="300.31" stroke-width="2.4" x2="666.608"/>
  </g>
  <g partID="9780440">
-  <line stroke="#404040" stroke-linecap="round" y1="300.31" x1="666.607" y2="300.31" stroke-width="2.4" x2="1048.79"/>
+  <line stroke="#404040" stroke-linecap="round" y1="300.31" x1="666.608" y2="300.31" stroke-width="2.4" x2="1048.79"/>
  </g>
  <g partID="9780390">
   <line stroke="#404040" stroke-linecap="round" y1="300.31" x1="1048.79" y2="470.759" stroke-width="2.4" x2="1048.79"/>
  </g>
  <g partID="9780340">
-  <line stroke="#404040" stroke-linecap="round" y1="470.759" x1="1048.79" y2="470.759" stroke-width="2.4" x2="1283.15"/>
+  <line stroke="#404040" stroke-linecap="round" y1="470.759" x1="1048.79" y2="470.759" stroke-width="2.4" x2="1283.16"/>
  </g>
  <g partID="9777500">
-  <line stroke="#404040" stroke-linecap="round" y1="470.759" x1="1283.15" y2="662.515" stroke-width="2.4" x2="1283.15"/>
+  <line stroke="#404040" stroke-linecap="round" y1="470.759" x1="1283.16" y2="662.514" stroke-width="2.4" x2="1283.16"/>
  </g>
  <g partID="9746820">
-  <line stroke="#404040" stroke-linecap="round" y1="598.433" x1="689.433" y2="598.973" stroke-width="2.4" x2="665.575"/>
+  <line stroke="#404040" stroke-linecap="round" y1="598.433" x1="689.432" y2="598.973" stroke-width="2.4" x2="665.574"/>
  </g>
  <g partID="9762130">
-  <line stroke="#404040" stroke-linecap="round" y1="620.143" x1="1473.89" y2="598.756" stroke-width="2.4" x2="1473.89"/>
+  <line stroke="#404040" stroke-linecap="round" y1="620.142" x1="1473.89" y2="598.756" stroke-width="2.4" x2="1473.89"/>
  </g>
  <g partID="9761720">
   <line stroke="#404040" stroke-linecap="round" y1="598.756" x1="1473.89" y2="598.756" stroke-width="2.4" x2="1750.33"/>
@@ -1093,9 +1114,9 @@
   <line stroke="#404040" stroke-linecap="round" y1="598.756" x1="1750.33" y2="534.724" stroke-width="2.4" x2="1750.23"/>
  </g>
  <g partID="9748210">
-  <line stroke="#404040" stroke-linecap="round" y1="726.063" x1="1473.86" y2="620.143" stroke-width="2.4" x2="1473.89"/>
+  <line stroke="#404040" stroke-linecap="round" y1="726.062" x1="1473.86" y2="620.142" stroke-width="2.4" x2="1473.89"/>
  </g>
- <circle fill="black" cx="1473.86" cy="726.063" stroke="none" r="3.6" stroke-width="0"/>
+ <circle fill="black" cx="1473.86" cy="726.062" stroke="none" r="3.6" stroke-width="0"/>
  <g partID="9763680">
   <line stroke="#404040" stroke-linecap="round" y1="598.756" x1="1473.89" y2="598.756" stroke-width="2.4" x2="1750.33"/>
  </g>
@@ -1106,9 +1127,9 @@
   <line stroke="#404040" stroke-linecap="round" y1="598.756" x1="1941.22" y2="534.724" stroke-width="2.4" x2="1941.57"/>
  </g>
  <g partID="9755300">
-  <line stroke="#404040" stroke-linecap="round" y1="726.063" x1="1473.86" y2="598.756" stroke-width="2.4" x2="1473.89"/>
+  <line stroke="#404040" stroke-linecap="round" y1="726.062" x1="1473.86" y2="598.756" stroke-width="2.4" x2="1473.89"/>
  </g>
- <circle fill="black" cx="1473.86" cy="726.063" stroke="none" r="3.6" stroke-width="0"/>
+ <circle fill="black" cx="1473.86" cy="726.062" stroke="none" r="3.6" stroke-width="0"/>
  <g partID="9764500">
   <line stroke="#404040" stroke-linecap="round" y1="598.756" x1="1473.89" y2="598.756" stroke-width="2.4" x2="2132.9"/>
  </g>
@@ -1116,48 +1137,48 @@
   <line stroke="#404040" stroke-linecap="round" y1="598.756" x1="2132.9" y2="534.724" stroke-width="2.4" x2="2132.91"/>
  </g>
  <g partID="9755750">
-  <line stroke="#404040" stroke-linecap="round" y1="726.063" x1="1473.86" y2="598.756" stroke-width="2.4" x2="1473.89"/>
+  <line stroke="#404040" stroke-linecap="round" y1="726.062" x1="1473.86" y2="598.756" stroke-width="2.4" x2="1473.89"/>
  </g>
- <circle fill="black" cx="1473.86" cy="726.063" stroke="none" r="3.6" stroke-width="0"/>
+ <circle fill="black" cx="1473.86" cy="726.062" stroke="none" r="3.6" stroke-width="0"/>
  <g partID="9757950">
-  <line stroke="#404040" stroke-linecap="round" y1="726.063" x1="1452.6" y2="726.063" stroke-width="2.4" x2="1473.86"/>
+  <line stroke="#404040" stroke-linecap="round" y1="726.062" x1="1452.6" y2="726.062" stroke-width="2.4" x2="1473.86"/>
  </g>
- <circle fill="black" cx="1452.6" cy="726.063" stroke="none" r="3.6" stroke-width="0"/>
- <circle fill="black" cx="1473.86" cy="726.063" stroke="none" r="3.6" stroke-width="0"/>
+ <circle fill="black" cx="1452.6" cy="726.062" stroke="none" r="3.6" stroke-width="0"/>
+ <circle fill="black" cx="1473.86" cy="726.062" stroke="none" r="3.6" stroke-width="0"/>
  <g partID="9789380">
-  <line stroke="#404040" stroke-linecap="round" y1="853.959" x1="1388.47" y2="853.959" stroke-width="2.4" x2="1197.33"/>
+  <line stroke="#404040" stroke-linecap="round" y1="853.958" x1="1388.47" y2="853.958" stroke-width="2.4" x2="1197.33"/>
  </g>
  <g partID="9789110">
-  <line stroke="#404040" stroke-linecap="round" y1="853.959" x1="1197.33" y2="832.362" stroke-width="2.4" x2="1197.48"/>
+  <line stroke="#404040" stroke-linecap="round" y1="853.958" x1="1197.33" y2="832.362" stroke-width="2.4" x2="1197.48"/>
  </g>
  <g partID="9767970">
-  <line stroke="#404040" stroke-linecap="round" y1="832.658" x1="1388.67" y2="853.959" stroke-width="2.4" x2="1388.47"/>
+  <line stroke="#404040" stroke-linecap="round" y1="832.658" x1="1388.68" y2="853.959" stroke-width="2.4" x2="1388.47"/>
  </g>
  <g partID="9767980">
-  <line stroke="#404040" stroke-linecap="round" y1="725.736" x1="1388.67" y2="832.658" stroke-width="2.4" x2="1388.67"/>
+  <line stroke="#404040" stroke-linecap="round" y1="725.736" x1="1388.68" y2="832.658" stroke-width="2.4" x2="1388.68"/>
  </g>
  <g partID="9779280">
   <line stroke="#404040" stroke-linecap="round" y1="959.47" x1="1494.88" y2="1067.42" stroke-width="2.4" x2="1495.12"/>
  </g>
  <g partID="9776690">
-  <line stroke="#404040" stroke-linecap="round" y1="959.47" x1="645.303" y2="959.47" stroke-width="2.4" x2="1494.89"/>
+  <line stroke="#404040" stroke-linecap="round" y1="959.47" x1="645.304" y2="959.47" stroke-width="2.4" x2="1494.89"/>
  </g>
  <g partID="9775670">
-  <line stroke="#404040" stroke-linecap="round" y1="661.803" x1="644.631" y2="959.47" stroke-width="2.4" x2="645.301"/>
+  <line stroke="#404040" stroke-linecap="round" y1="661.803" x1="644.632" y2="959.47" stroke-width="2.4" x2="645.301"/>
  </g>
  <g partID="9775680">
-  <line stroke="#404040" stroke-linecap="round" y1="662.141" x1="689.433" y2="661.803" stroke-width="2.4" x2="644.631"/>
+  <line stroke="#404040" stroke-linecap="round" y1="662.141" x1="689.432" y2="661.803" stroke-width="2.4" x2="644.63"/>
  </g>
  <g partID="9776770">
   <line stroke="#404040" stroke-linecap="round" y1="726.063" x1="1431.34" y2="726.063" stroke-width="2.4" x2="1388.82"/>
  </g>
  <circle fill="black" cx="1431.34" cy="726.063" stroke="none" r="3.6" stroke-width="0"/>
  <g partID="9777860">
-  <line stroke="#404040" stroke-linecap="round" y1="725.736" x1="1388.67" y2="1023.94" stroke-width="2.4" x2="1388.65"/>
+  <line stroke="#404040" stroke-linecap="round" y1="725.736" x1="1388.68" y2="1023.94" stroke-width="2.4" x2="1388.65"/>
  </g>
- <circle fill="black" cx="1388.67" cy="725.736" stroke="none" r="3.6" stroke-width="0"/>
+ <circle fill="black" cx="1388.68" cy="725.736" stroke="none" r="3.6" stroke-width="0"/>
  <g partID="9777550">
-  <line stroke="#404040" stroke-linecap="round" y1="726.063" x1="1431.34" y2="725.736" stroke-width="2.4" x2="1388.67"/>
+  <line stroke="#404040" stroke-linecap="round" y1="726.063" x1="1431.34" y2="725.736" stroke-width="2.4" x2="1388.68"/>
  </g>
  <circle fill="black" cx="1431.34" cy="726.063" stroke="none" r="3.6" stroke-width="0"/>
  <g partID="9779090">
@@ -1167,26 +1188,26 @@
   <line stroke="#404040" stroke-linecap="round" y1="726.184" x1="1537.47" y2="1215.14" stroke-width="2.4" x2="1537.5"/>
  </g>
  <g partID="9778710">
-  <line stroke="#404040" stroke-linecap="round" y1="726.063" x1="1473.86" y2="726.184" stroke-width="2.4" x2="1537.47"/>
+  <line stroke="#404040" stroke-linecap="round" y1="726.062" x1="1473.86" y2="726.183" stroke-width="2.4" x2="1537.47"/>
  </g>
- <circle fill="black" cx="1473.86" cy="726.063" stroke="none" r="3.6" stroke-width="0"/>
+ <circle fill="black" cx="1473.86" cy="726.062" stroke="none" r="3.6" stroke-width="0"/>
  <g partID="9780070">
-  <line stroke="#404040" stroke-linecap="round" y1="598.597" x1="1473.58" y2="598.597" stroke-width="2.4" x2="1283.15"/>
+  <line stroke="#404040" stroke-linecap="round" y1="598.596" x1="1473.58" y2="598.596" stroke-width="2.4" x2="1283.16"/>
  </g>
  <g partID="9779620">
-  <line stroke="#404040" stroke-linecap="round" y1="598.597" x1="1283.15" y2="601.169" stroke-width="2.4" x2="1197.47"/>
+  <line stroke="#404040" stroke-linecap="round" y1="598.596" x1="1283.16" y2="601.169" stroke-width="2.4" x2="1197.48"/>
  </g>
  <g partID="9779390">
   <line stroke="#404040" stroke-linecap="round" y1="720.542" x1="1475.41" y2="598.596" stroke-width="2.4" x2="1473.58"/>
  </g>
  <g partID="9780950">
-  <line stroke="#404040" stroke-linecap="round" y1="619.917" x1="644.631" y2="279.31" stroke-width="2.4" x2="644.631"/>
+  <line stroke="#404040" stroke-linecap="round" y1="619.917" x1="644.632" y2="279.31" stroke-width="2.4" x2="644.632"/>
  </g>
  <g partID="9780900">
-  <line stroke="#404040" stroke-linecap="round" y1="279.311" x1="644.631" y2="279.311" stroke-width="2.4" x2="1070.11"/>
+  <line stroke="#404040" stroke-linecap="round" y1="279.31" x1="644.632" y2="279.31" stroke-width="2.4" x2="1070.11"/>
  </g>
  <g partID="9780850">
-  <line stroke="#404040" stroke-linecap="round" y1="279.311" x1="1070.11" y2="450.165" stroke-width="2.4" x2="1070.11"/>
+  <line stroke="#404040" stroke-linecap="round" y1="279.31" x1="1070.11" y2="450.165" stroke-width="2.4" x2="1070.11"/>
  </g>
  <g partID="9780800">
   <line stroke="#404040" stroke-linecap="round" y1="450.165" x1="1070.11" y2="450.165" stroke-width="2.4" x2="1303.8"/>
@@ -1198,16 +1219,16 @@
   <line stroke="#404040" stroke-linecap="round" y1="747.153" x1="1303.62" y2="747.153" stroke-width="2.4" x2="1218.7"/>
  </g>
  <g partID="9780650">
-  <line stroke="#404040" stroke-linecap="round" y1="747.153" x1="1218.7" y2="737.055" stroke-width="2.4" x2="1209.61"/>
+  <line stroke="#404040" stroke-linecap="round" y1="747.153" x1="1218.7" y2="737.054" stroke-width="2.4" x2="1209.61"/>
  </g>
  <g partID="9780540">
-  <line stroke="#404040" stroke-linecap="round" y1="619.671" x1="689.433" y2="619.917" stroke-width="2.4" x2="644.631"/>
+  <line stroke="#404040" stroke-linecap="round" y1="619.671" x1="689.432" y2="619.917" stroke-width="2.4" x2="644.63"/>
  </g>
  <g partID="9784640">
   <line stroke="#404040" stroke-linecap="round" y1="683.869" x1="1473.53" y2="683.869" stroke-width="2.4" x2="1346.59"/>
  </g>
  <g partID="9784370">
-  <line stroke="#404040" stroke-linecap="round" y1="683.869" x1="1346.59" y2="686.209" stroke-width="2.4" x2="1197.47"/>
+  <line stroke="#404040" stroke-linecap="round" y1="683.869" x1="1346.59" y2="686.208" stroke-width="2.4" x2="1197.48"/>
  </g>
  <g partID="9784100">
   <line stroke="#404040" stroke-linecap="round" y1="720.542" x1="1475.41" y2="683.869" stroke-width="2.4" x2="1473.53"/>
@@ -1219,10 +1240,10 @@
   <line stroke="#404040" stroke-linecap="round" y1="683.895" x1="1346.32" y2="768.927" stroke-width="2.4" x2="1346.32"/>
  </g>
  <g partID="9785160">
-  <line stroke="#404040" stroke-linecap="round" y1="768.927" x1="1346.32" y2="771.248" stroke-width="2.4" x2="1197.47"/>
+  <line stroke="#404040" stroke-linecap="round" y1="768.927" x1="1346.32" y2="771.248" stroke-width="2.4" x2="1197.48"/>
  </g>
  <g partID="9784910">
-  <line stroke="#404040" stroke-linecap="round" y1="726.063" x1="1473.86" y2="683.869" stroke-width="2.4" x2="1473.53"/>
+  <line stroke="#404040" stroke-linecap="round" y1="726.062" x1="1473.86" y2="683.869" stroke-width="2.4" x2="1473.53"/>
  </g>
  <g partID="9786880">
   <line stroke="#404040" stroke-linecap="round" y1="875.132" x1="1388.65" y2="875.132" stroke-width="2.4" x2="1176.54"/>
@@ -1231,7 +1252,7 @@
   <line stroke="#404040" stroke-linecap="round" y1="875.132" x1="1176.54" y2="662.367" stroke-width="2.4" x2="1176.54"/>
  </g>
  <g partID="9786300">
-  <line stroke="#404040" stroke-linecap="round" y1="662.367" x1="1176.54" y2="662.283" stroke-width="2.4" x2="1197.48"/>
+  <line stroke="#404040" stroke-linecap="round" y1="662.366" x1="1176.54" y2="662.283" stroke-width="2.4" x2="1197.48"/>
  </g>
  <g partID="9786010">
   <line stroke="#404040" stroke-linecap="round" y1="1023.94" x1="1388.65" y2="875.132" stroke-width="2.4" x2="1388.65"/>
@@ -1250,13 +1271,13 @@
   <line stroke="#404040" stroke-linecap="round" y1="1023.94" x1="1388.65" y2="875.132" stroke-width="2.4" x2="1388.65"/>
  </g>
  <g partID="9798530">
-  <line stroke="#404040" stroke-linecap="round" y1="640.86" x1="623.687" y2="598.597" stroke-width="2.4" x2="623.994"/>
+  <line stroke="#404040" stroke-linecap="round" y1="640.86" x1="623.688" y2="598.596" stroke-width="2.4" x2="623.994"/>
  </g>
  <g partID="9789900">
-  <line stroke="#404040" stroke-linecap="round" y1="598.597" x1="623.991" y2="257.698" stroke-width="2.4" x2="623.991"/>
+  <line stroke="#404040" stroke-linecap="round" y1="598.596" x1="623.992" y2="257.698" stroke-width="2.4" x2="623.992"/>
  </g>
  <g partID="9789850">
-  <line stroke="#404040" stroke-linecap="round" y1="257.698" x1="623.991" y2="257.698" stroke-width="2.4" x2="1091.4"/>
+  <line stroke="#404040" stroke-linecap="round" y1="257.698" x1="623.992" y2="257.698" stroke-width="2.4" x2="1091.4"/>
  </g>
  <g partID="9789800">
   <line stroke="#404040" stroke-linecap="round" y1="257.698" x1="1091.4" y2="428.147" stroke-width="2.4" x2="1091.4"/>
@@ -1274,36 +1295,36 @@
   <line stroke="#404040" stroke-linecap="round" y1="832.155" x1="1218.41" y2="822.093" stroke-width="2.4" x2="1209.61"/>
  </g>
  <g partID="9788890">
-  <line stroke="#404040" stroke-linecap="round" y1="640.905" x1="689.433" y2="640.86" stroke-width="2.4" x2="623.687"/>
+  <line stroke="#404040" stroke-linecap="round" y1="640.905" x1="689.432" y2="640.86" stroke-width="2.4" x2="623.686"/>
  </g>
  <g partID="9790990">
-  <line stroke="#404040" stroke-linecap="round" y1="938.163" x1="1430.97" y2="938.163" stroke-width="2.4" x2="984.868"/>
+  <line stroke="#404040" stroke-linecap="round" y1="938.163" x1="1430.97" y2="938.163" stroke-width="2.4" x2="984.869"/>
  </g>
  <g partID="9790720">
-  <line stroke="#404040" stroke-linecap="round" y1="938.163" x1="984.868" y2="322.299" stroke-width="2.4" x2="985.238"/>
+  <line stroke="#404040" stroke-linecap="round" y1="938.163" x1="984.869" y2="322.299" stroke-width="2.4" x2="985.239"/>
  </g>
  <g partID="9790450">
-  <line stroke="#404040" stroke-linecap="round" y1="322.299" x1="985.238" y2="322.299" stroke-width="2.4" x2="772.497"/>
+  <line stroke="#404040" stroke-linecap="round" y1="322.299" x1="985.238" y2="322.299" stroke-width="2.4" x2="772.498"/>
  </g>
  <g partID="9790200">
-  <line stroke="#404040" stroke-linecap="round" y1="322.299" x1="772.497" y2="365.719" stroke-width="2.4" x2="773.357"/>
+  <line stroke="#404040" stroke-linecap="round" y1="322.299" x1="772.496" y2="365.719" stroke-width="2.4" x2="773.356"/>
  </g>
  <g partID="9789950">
   <line stroke="#404040" stroke-linecap="round" y1="726.063" x1="1431.34" y2="938.163" stroke-width="2.4" x2="1430.97"/>
  </g>
  <circle fill="black" cx="1431.34" cy="726.063" stroke="none" r="3.6" stroke-width="0"/>
  <g partID="9791720">
-  <line stroke="#404040" stroke-linecap="round" y1="916.858" x1="1452.27" y2="917.534" stroke-width="2.4" x2="793.44"/>
+  <line stroke="#404040" stroke-linecap="round" y1="916.858" x1="1452.27" y2="917.534" stroke-width="2.4" x2="793.441"/>
  </g>
  <g partID="9791470">
   <line stroke="#404040" stroke-linecap="round" y1="917.534" x1="793.44" y2="767.135" stroke-width="2.4" x2="794.635"/>
  </g>
  <g partID="9791240">
-  <line stroke="#404040" stroke-linecap="round" y1="726.063" x1="1452.6" y2="916.857" stroke-width="2.4" x2="1452.27"/>
+  <line stroke="#404040" stroke-linecap="round" y1="726.062" x1="1452.6" y2="916.857" stroke-width="2.4" x2="1452.27"/>
  </g>
- <circle fill="black" cx="1452.6" cy="726.063" stroke="none" r="3.6" stroke-width="0"/>
+ <circle fill="black" cx="1452.6" cy="726.062" stroke="none" r="3.6" stroke-width="0"/>
  <g partID="9823440">
-  <line stroke="#404040" stroke-linecap="round" y1="407.565" x1="1940.01" y2="485.72" stroke-width="2.4" x2="1941.69"/>
+  <line stroke="#404040" stroke-linecap="round" y1="407.565" x1="1940.01" y2="485.719" stroke-width="2.4" x2="1941.69"/>
  </g>
  <g partID="9823530">
   <line stroke="#404040" stroke-linecap="round" y1="407.565" x1="1940.01" y2="290.144" stroke-width="2.4" x2="1941.57"/>
@@ -1313,14 +1334,14 @@
   <line stroke="#404040" stroke-linecap="round" y1="407.565" x1="1940.01" y2="407.149" stroke-width="2.4" x2="1920.32"/>
  </g>
  <g partID="9824010">
-  <line stroke="#404040" stroke-linecap="round" y1="406.956" x1="2132.92" y2="290.144" stroke-width="2.4" x2="2111.65"/>
+  <line stroke="#404040" stroke-linecap="round" y1="406.955" x1="2132.92" y2="290.143" stroke-width="2.4" x2="2111.65"/>
  </g>
  <g partID="9824100">
-  <line stroke="#404040" stroke-linecap="round" y1="406.956" x1="2132.92" y2="485.72" stroke-width="2.4" x2="2133.02"/>
+  <line stroke="#404040" stroke-linecap="round" y1="406.955" x1="2132.92" y2="485.719" stroke-width="2.4" x2="2133.03"/>
  </g>
- <circle fill="black" cx="2132.92" cy="406.956" stroke="none" r="3.6" stroke-width="0"/>
+ <circle fill="black" cx="2132.92" cy="406.955" stroke="none" r="3.6" stroke-width="0"/>
  <g partID="9824310">
-  <line stroke="#404040" stroke-linecap="round" y1="406.956" x1="2132.92" y2="407.149" stroke-width="2.4" x2="2090.4"/>
+  <line stroke="#404040" stroke-linecap="round" y1="406.955" x1="2132.92" y2="407.149" stroke-width="2.4" x2="2090.4"/>
  </g>
  <g partID="9824630">
   <line stroke="#404040" stroke-linecap="round" y1="513.464" x1="2090.39" y2="510.106" stroke-width="2.4" x2="2099.71"/>
@@ -1336,56 +1357,56 @@
   <line stroke="#404040" stroke-linecap="round" y1="407.073" x1="1600.62" y2="290.144" stroke-width="2.4" x2="1601.42"/>
  </g>
  <g partID="9849390">
-  <line stroke="#404040" stroke-linecap="round" y1="407.073" x1="1600.62" y2="485.72" stroke-width="2.4" x2="1601.53"/>
+  <line stroke="#404040" stroke-linecap="round" y1="407.073" x1="1600.62" y2="485.719" stroke-width="2.4" x2="1601.53"/>
  </g>
  <circle fill="black" cx="1600.62" cy="407.073" stroke="none" r="3.6" stroke-width="0"/>
  <g partID="9849710">
-  <line stroke="#404040" stroke-linecap="round" y1="407.073" x1="1600.62" y2="407.149" stroke-width="2.4" x2="1580.16"/>
+  <line stroke="#404040" stroke-linecap="round" y1="407.073" x1="1600.62" y2="407.149" stroke-width="2.4" x2="1580.17"/>
  </g>
+ <g partID="9851190">
+  <line stroke="#404040" stroke-linecap="round" y1="407.073" x1="1431.12" y2="726.062" stroke-width="2.4" x2="1431.34"/>
+ </g>
+ <circle fill="black" cx="1431.34" cy="726.062" stroke="none" r="3.6" stroke-width="0"/>
  <g partID="9850060">
   <line stroke="#404040" stroke-linecap="round" y1="407.165" x1="1516.38" y2="407.073" stroke-width="2.4" x2="1431.12"/>
  </g>
  <circle fill="black" cx="1516.38" cy="407.165" stroke="none" r="3.6" stroke-width="0"/>
- <g partID="9851190">
-  <line stroke="#404040" stroke-linecap="round" y1="407.073" x1="1431.12" y2="726.063" stroke-width="2.4" x2="1431.34"/>
- </g>
- <circle fill="black" cx="1431.34" cy="726.063" stroke="none" r="3.6" stroke-width="0"/>
  <g partID="9851770">
   <line stroke="#404040" stroke-linecap="round" y1="449.846" x1="1431.12" y2="449.846" stroke-width="2.4" x2="1665.57"/>
  </g>
+ <g partID="9851480">
+  <line stroke="#404040" stroke-linecap="round" y1="449.846" x1="1665.57" y2="407.165" stroke-width="2.4" x2="1665.2"/>
+ </g>
+ <circle fill="black" cx="1665.2" cy="407.165" stroke="none" r="3.6" stroke-width="0"/>
  <g partID="9850900">
   <line stroke="#404040" stroke-linecap="round" y1="726.063" x1="1431.34" y2="449.846" stroke-width="2.4" x2="1431.12"/>
  </g>
- <g partID="9851480">
-  <line stroke="#404040" stroke-linecap="round" y1="449.846" x1="1665.57" y2="407.165" stroke-width="2.4" x2="1665.19"/>
- </g>
- <circle fill="black" cx="1665.19" cy="407.165" stroke="none" r="3.6" stroke-width="0"/>
  <g partID="9852060">
-  <line stroke="#404040" stroke-linecap="round" y1="407.165" x1="1665.19" y2="290.144" stroke-width="2.4" x2="1658.5"/>
+  <line stroke="#404040" stroke-linecap="round" y1="407.165" x1="1665.2" y2="290.144" stroke-width="2.4" x2="1658.5"/>
  </g>
- <circle fill="black" cx="1665.19" cy="407.165" stroke="none" r="3.6" stroke-width="0"/>
+ <circle fill="black" cx="1665.2" cy="407.165" stroke="none" r="3.6" stroke-width="0"/>
+ <g partID="9852890">
+  <line stroke="#404040" stroke-linecap="round" y1="449.846" x1="1431.12" y2="449.846" stroke-width="2.4" x2="1856.47"/>
+ </g>
  <g partID="9852640">
-  <line stroke="#404040" stroke-linecap="round" y1="449.846" x1="1856.46" y2="407.165" stroke-width="2.4" x2="1856.53"/>
+  <line stroke="#404040" stroke-linecap="round" y1="449.846" x1="1856.47" y2="407.165" stroke-width="2.4" x2="1856.53"/>
  </g>
  <circle fill="black" cx="1856.53" cy="407.165" stroke="none" r="3.6" stroke-width="0"/>
- <g partID="9852890">
-  <line stroke="#404040" stroke-linecap="round" y1="449.846" x1="1431.12" y2="449.846" stroke-width="2.4" x2="1856.46"/>
- </g>
  <g partID="9852390">
   <line stroke="#404040" stroke-linecap="round" y1="726.063" x1="1431.34" y2="449.846" stroke-width="2.4" x2="1431.12"/>
  </g>
  <circle fill="black" cx="1431.34" cy="726.063" stroke="none" r="3.6" stroke-width="0"/>
- <g partID="9854130">
-  <line stroke="#404040" stroke-linecap="round" y1="726.063" x1="1431.34" y2="449.846" stroke-width="2.4" x2="1431.12"/>
+ <g partID="9854630">
+  <line stroke="#404040" stroke-linecap="round" y1="449.846" x1="1431.12" y2="449.846" stroke-width="2.4" x2="2026.76"/>
  </g>
- <circle fill="black" cx="1431.34" cy="726.063" stroke="none" r="3.6" stroke-width="0"/>
  <g partID="9854380">
   <line stroke="#404040" stroke-linecap="round" y1="449.846" x1="2026.76" y2="407.165" stroke-width="2.4" x2="2026.61"/>
  </g>
  <circle fill="black" cx="2026.61" cy="407.165" stroke="none" r="3.6" stroke-width="0"/>
- <g partID="9854630">
-  <line stroke="#404040" stroke-linecap="round" y1="449.846" x1="1431.12" y2="449.846" stroke-width="2.4" x2="2026.76"/>
+ <g partID="9854130">
+  <line stroke="#404040" stroke-linecap="round" y1="726.063" x1="1431.34" y2="449.846" stroke-width="2.4" x2="1431.12"/>
  </g>
+ <circle fill="black" cx="1431.34" cy="726.063" stroke="none" r="3.6" stroke-width="0"/>
  <g partID="9854880">
   <line stroke="#404040" stroke-linecap="round" y1="407.165" x1="2026.61" y2="290.144" stroke-width="2.4" x2="2019.92"/>
  </g>
@@ -1395,63 +1416,63 @@
  </g>
  <circle fill="black" cx="1856.53" cy="407.165" stroke="none" r="3.6" stroke-width="0"/>
  <g partID="9855380">
-  <line stroke="#404040" stroke-linecap="round" y1="513.464" x1="1707.71" y2="510.106" stroke-width="2.4" x2="1717.03"/>
- </g>
- <g partID="9855680">
-  <line stroke="#404040" stroke-linecap="round" y1="290.144" x1="1750.23" y2="407.289" stroke-width="2.4" x2="1750.11"/>
+  <line stroke="#404040" stroke-linecap="round" y1="513.464" x1="1707.72" y2="510.106" stroke-width="2.4" x2="1717.03"/>
  </g>
  <g partID="9855890">
-  <line stroke="#404040" stroke-linecap="round" y1="407.289" x1="1750.11" y2="407.149" stroke-width="2.4" x2="1728.98"/>
+  <line stroke="#404040" stroke-linecap="round" y1="407.288" x1="1750.11" y2="407.148" stroke-width="2.4" x2="1728.98"/>
  </g>
- <circle fill="black" cx="1728.98" cy="407.149" stroke="none" r="3.6" stroke-width="0"/>
- <g partID="9855760">
-  <line stroke="#404040" stroke-linecap="round" y1="407.149" x1="1728.98" y2="407.289" stroke-width="2.4" x2="1750.11"/>
+ <circle fill="black" cx="1728.98" cy="407.148" stroke="none" r="3.6" stroke-width="0"/>
+ <g partID="9855680">
+  <line stroke="#404040" stroke-linecap="round" y1="290.144" x1="1750.24" y2="407.289" stroke-width="2.4" x2="1750.11"/>
  </g>
- <circle fill="black" cx="1728.98" cy="407.149" stroke="none" r="3.6" stroke-width="0"/>
  <g partID="9855820">
-  <line stroke="#404040" stroke-linecap="round" y1="407.289" x1="1750.11" y2="485.72" stroke-width="2.4" x2="1750.35"/>
+  <line stroke="#404040" stroke-linecap="round" y1="407.288" x1="1750.11" y2="485.719" stroke-width="2.4" x2="1750.35"/>
  </g>
- <g partID="9863490">
-  <line stroke="#404040" stroke-linecap="round" y1="577.363" x1="899.84" y2="576.762" stroke-width="2.4" x2="942.649"/>
+ <g partID="9855760">
+  <line stroke="#404040" stroke-linecap="round" y1="407.149" x1="1728.98" y2="407.288" stroke-width="2.4" x2="1750.11"/>
+ </g>
+ <circle fill="black" cx="1728.98" cy="407.149" stroke="none" r="3.6" stroke-width="0"/>
+ <g partID="9863630">
+  <line stroke="#404040" stroke-linecap="round" y1="576.761" x1="942.65" y2="1002.09" stroke-width="2.4" x2="942.65"/>
+ </g>
+ <g partID="9863580">
+  <line stroke="#404040" stroke-linecap="round" y1="1002.09" x1="942.65" y2="1002.09" stroke-width="2.4" x2="2090.3"/>
  </g>
  <g partID="9863530">
   <line stroke="#404040" stroke-linecap="round" y1="1002.09" x1="2090.3" y2="577.141" stroke-width="2.4" x2="2090.4"/>
  </g>
- <g partID="9863580">
-  <line stroke="#404040" stroke-linecap="round" y1="1002.09" x1="942.649" y2="1002.09" stroke-width="2.4" x2="2090.3"/>
- </g>
- <g partID="9863630">
-  <line stroke="#404040" stroke-linecap="round" y1="576.762" x1="942.649" y2="1002.09" stroke-width="2.4" x2="942.649"/>
+ <g partID="9863490">
+  <line stroke="#404040" stroke-linecap="round" y1="577.363" x1="899.84" y2="576.761" stroke-width="2.4" x2="942.65"/>
  </g>
  <g partID="9863770">
-  <line stroke="#404040" stroke-linecap="round" y1="619.539" x1="1155.31" y2="576.762" stroke-width="2.4" x2="1155.31"/>
+  <line stroke="#404040" stroke-linecap="round" y1="619.538" x1="1155.31" y2="576.761" stroke-width="2.4" x2="1155.31"/>
  </g>
  <g partID="9863720">
-  <line stroke="#404040" stroke-linecap="round" y1="576.762" x1="1155.31" y2="577.141" stroke-width="2.4" x2="1558.9"/>
+  <line stroke="#404040" stroke-linecap="round" y1="576.761" x1="1155.31" y2="577.141" stroke-width="2.4" x2="1558.9"/>
  </g>
  <g partID="9863680">
-  <line stroke="#404040" stroke-linecap="round" y1="619.837" x1="899.84" y2="619.539" stroke-width="2.4" x2="1155.31"/>
- </g>
- <g partID="9863880">
-  <line stroke="#404040" stroke-linecap="round" y1="704.614" x1="689.433" y2="895.664" stroke-width="2.4" x2="687.05"/>
+  <line stroke="#404040" stroke-linecap="round" y1="619.837" x1="899.84" y2="619.538" stroke-width="2.4" x2="1155.31"/>
  </g>
  <g partID="9864280">
   <line stroke="#404040" stroke-linecap="round" y1="895.664" x1="1708.14" y2="577.141" stroke-width="2.4" x2="1707.72"/>
  </g>
  <g partID="9864210">
-  <line stroke="#404040" stroke-linecap="round" y1="895.664" x1="687.05" y2="895.664" stroke-width="2.4" x2="1708.14"/>
+  <line stroke="#404040" stroke-linecap="round" y1="895.664" x1="687.048" y2="895.664" stroke-width="2.4" x2="1708.14"/>
  </g>
- <g partID="9864050">
-  <line stroke="#404040" stroke-linecap="round" y1="981.07" x1="665.975" y2="980.841" stroke-width="2.4" x2="1899.02"/>
- </g>
- <g partID="9864000">
-  <line stroke="#404040" stroke-linecap="round" y1="980.841" x1="1899.02" y2="577.141" stroke-width="2.4" x2="1899.06"/>
+ <g partID="9863880">
+  <line stroke="#404040" stroke-linecap="round" y1="704.614" x1="689.432" y2="895.664" stroke-width="2.4" x2="687.049"/>
  </g>
  <g partID="9864160">
-  <line stroke="#404040" stroke-linecap="round" y1="683.678" x1="665.975" y2="981.07" stroke-width="2.4" x2="665.975"/>
+  <line stroke="#404040" stroke-linecap="round" y1="683.678" x1="665.976" y2="981.07" stroke-width="2.4" x2="665.976"/>
+ </g>
+ <g partID="9864050">
+  <line stroke="#404040" stroke-linecap="round" y1="981.07" x1="665.976" y2="980.841" stroke-width="2.4" x2="1899.02"/>
+ </g>
+ <g partID="9864000">
+  <line stroke="#404040" stroke-linecap="round" y1="980.841" x1="1899.02" y2="577.142" stroke-width="2.4" x2="1899.06"/>
  </g>
  <g partID="9863950">
-  <line stroke="#404040" stroke-linecap="round" y1="683.379" x1="689.433" y2="683.678" stroke-width="2.4" x2="665.975"/>
+  <line stroke="#404040" stroke-linecap="round" y1="683.379" x1="689.432" y2="683.678" stroke-width="2.4" x2="665.974"/>
  </g>
  <g id="partLabel" partID="9655220">
   <g transform="translate(2066.26,521.614)">
@@ -1470,17 +1491,17 @@
   </g>
  </g>
  <g id="partLabel" partID="9648550">
-  <g transform="translate(1674.74,424.739)">
+  <g transform="translate(1674.74,424.738)">
    <g fill="#000000" font-family="'DroidSans'" stroke="none" font-style="normal" fill-opacity="1" font-weight="normal" id="schematicLabel" font-size="9">
     <text x="0" y="6.75">D2</text>
     <text x="0" y="15.75">1N4007</text>
    </g>
   </g>
  </g>
- <g id="partLabel" partID="9654800">
-  <g transform="translate(1871.11,424.739)">
+ <g id="partLabel" partID="9834280">
+  <g transform="translate(1525.92,424.738)">
    <g fill="#000000" font-family="'DroidSans'" stroke="none" font-style="normal" fill-opacity="1" font-weight="normal" id="schematicLabel" font-size="9">
-    <text x="0" y="6.75">D3</text>
+    <text x="0" y="6.75">D1</text>
     <text x="0" y="15.75">1N4007</text>
    </g>
   </g>
@@ -1493,27 +1514,11 @@
    </g>
   </g>
  </g>
- <g id="partLabel" partID="9834280">
-  <g transform="translate(1525.92,424.739)">
+ <g id="partLabel" partID="9654800">
+  <g transform="translate(1871.12,424.738)">
    <g fill="#000000" font-family="'DroidSans'" stroke="none" font-style="normal" fill-opacity="1" font-weight="normal" id="schematicLabel" font-size="9">
-    <text x="0" y="6.75">D1</text>
+    <text x="0" y="6.75">D3</text>
     <text x="0" y="15.75">1N4007</text>
-   </g>
-  </g>
- </g>
- <g id="partLabel" partID="9654780">
-  <g transform="translate(1848.31,242.841)">
-   <g fill="#000000" font-family="'DroidSans'" stroke="none" font-style="normal" fill-opacity="1" font-weight="normal" id="schematicLabel" font-size="9">
-    <text x="0" y="6.75">K3</text>
-    <text x="0" y="15.75">Rele 10A 1C 6V</text>
-   </g>
-  </g>
- </g>
- <g id="partLabel" partID="9627560">
-  <g transform="translate(1507.02,239.219)">
-   <g fill="#000000" font-family="'DroidSans'" stroke="none" font-style="normal" fill-opacity="1" font-weight="normal" id="schematicLabel" font-size="9">
-    <text x="0" y="6.75">K1</text>
-    <text x="0" y="15.75">Rele 10A 1C 6V</text>
    </g>
   </g>
  </g>
@@ -1525,11 +1530,41 @@
    </g>
   </g>
  </g>
+ <g id="partLabel" partID="9627560">
+  <g transform="translate(1507.02,239.218)">
+   <g fill="#000000" font-family="'DroidSans'" stroke="none" font-style="normal" fill-opacity="1" font-weight="normal" id="schematicLabel" font-size="9">
+    <text x="0" y="6.75">K1</text>
+    <text x="0" y="15.75">Rele 10A 1C 6V</text>
+   </g>
+  </g>
+ </g>
  <g id="partLabel" partID="9648530">
   <g transform="translate(1659,241.324)">
    <g fill="#000000" font-family="'DroidSans'" stroke="none" font-style="normal" fill-opacity="1" font-weight="normal" id="schematicLabel" font-size="9">
     <text x="0" y="6.75">K2</text>
     <text x="0" y="15.75">Rele 10A 1C 6V</text>
+   </g>
+  </g>
+ </g>
+ <g id="partLabel" partID="9654780">
+  <g transform="translate(1848.31,242.841)">
+   <g fill="#000000" font-family="'DroidSans'" stroke="none" font-style="normal" fill-opacity="1" font-weight="normal" id="schematicLabel" font-size="9">
+    <text x="0" y="6.75">K3</text>
+    <text x="0" y="15.75">Rele 10A 1C 6V</text>
+   </g>
+  </g>
+ </g>
+ <g id="partLabel" partID="9654790">
+  <g transform="translate(1963.17,131.286)">
+   <g fill="#000000" font-family="'DroidSans'" stroke="none" font-style="normal" fill-opacity="1" font-weight="normal" id="schematicLabel" font-size="9">
+    <text x="0" y="6.75">220V #3</text>
+   </g>
+  </g>
+ </g>
+ <g id="partLabel" partID="9645290">
+  <g transform="translate(1771.83,131.286)">
+   <g fill="#000000" font-family="'DroidSans'" stroke="none" font-style="normal" fill-opacity="1" font-weight="normal" id="schematicLabel" font-size="9">
+    <text x="0" y="6.75">220V #2</text>
    </g>
   </g>
  </g>
@@ -1547,24 +1582,10 @@
    </g>
   </g>
  </g>
- <g id="partLabel" partID="9645290">
-  <g transform="translate(1771.83,131.286)">
-   <g fill="#000000" font-family="'DroidSans'" stroke="none" font-style="normal" fill-opacity="1" font-weight="normal" id="schematicLabel" font-size="9">
-    <text x="0" y="6.75">220V #2</text>
-   </g>
-  </g>
- </g>
  <g id="partLabel" partID="9643590">
   <g transform="translate(1325.54,341.909)">
    <g fill="#000000" font-family="'DroidSans'" stroke="none" font-style="normal" fill-opacity="1" font-weight="normal" id="schematicLabel" font-size="9">
     <text x="0" y="6.75">220V INPUT</text>
-   </g>
-  </g>
- </g>
- <g id="partLabel" partID="9654790">
-  <g transform="translate(1963.17,131.286)">
-   <g fill="#000000" font-family="'DroidSans'" stroke="none" font-style="normal" fill-opacity="1" font-weight="normal" id="schematicLabel" font-size="9">
-    <text x="0" y="6.75">220V #3</text>
    </g>
   </g>
  </g>
@@ -1583,7 +1604,7 @@
   </g>
  </g>
  <g id="partLabel" partID="9667610">
-  <g transform="translate(1211.52,673.527)">
+  <g transform="translate(1211.52,673.526)">
    <g fill="#000000" font-family="'DroidSans'" stroke="none" font-style="normal" fill-opacity="1" font-weight="normal" id="schematicLabel" font-size="9">
     <text x="0" y="6.75">Rp2</text>
    </g>
@@ -1604,7 +1625,7 @@
   </g>
  </g>
  <g id="partLabel" partID="9810240">
-  <g transform="translate(2139.92,473.545)">
+  <g transform="translate(2139.93,473.545)">
    <g fill="#000000" font-family="'DroidSans'" stroke="none" font-style="normal" fill-opacity="1" font-weight="normal" id="schematicLabel" font-size="9">
     <text x="0" y="6.75">Q4</text>
    </g>
