@@ -26,7 +26,7 @@
 #define delay_between_last_activation 8000 //tiempo en milisegundos de retardo desde la ultima activacion hasta que se pueda ejecutar la siguiente evaluacion
 #define maxThreshold 110
 #define minThreshold 60
-#define plusMediumThreshold 12
+#define plusMediumThreshold 12 //nivel añadido al umbral calculado inferior  threshold[1] para calcular el threshold[2]
 
 #define PLAYMP3_BOOL 1 // 1- Reproduce sonidos a traves de la tarjeta MP3 Player Arduino Shell 
                        // 0 - NO Reproduce sonidos a traves de la tarjeta MP3 Player Arduino Shell 

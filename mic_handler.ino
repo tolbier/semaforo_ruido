@@ -28,6 +28,9 @@
 const int numberOfSamples =256; // Numero de muestras que seran tomadas para calcular la amplitud en un periodo de tiempo
 const int averagedOver= 128; //Numero de muestreos utilizados para calcular la media 
                                  //Cuanto mayor es el numero, mas tiempo tarda en reflejar cualquier aumento en el volumen de sonido
+const int initialThresholdOffset = 40;
+const int minThresholdOffset = 1;
+const int maxThresholdOffset = 5;
 
 
 float getAmplitudeAvg() {
@@ -69,8 +72,8 @@ void evaluateAmplitude(long amplitudeAvg){
 }
 void setThresholdPotenciometro(){
 
-  int thresholdMaxValue= map(analogRead(pot_pin[2]),1024,0,40,(maxThreshold-5)*2-40);
-  int thresholdMinValue= map(analogRead(pot_pin[1]),0,1024,40,(minThreshold-1)*2-40);
+  int thresholdMaxValue= map(analogRead(pot_pin[2]),1024,0,initialThresholdOffset,(maxThreshold-maxThresholdOffset)*2-initialThresholdOffset);
+  int thresholdMinValue= map(analogRead(pot_pin[1]),0,1024,initialThresholdOffset,(minThreshold-minThresholdOffset)*2-initialThresholdOffset);
   
   threshold[3]=thresholdMaxValue;
   threshold[2]= thresholdMinValue + plusMediumThreshold;

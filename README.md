@@ -17,7 +17,11 @@ Componentes
 
 Esquema
 -------
-El esquema está disponible en el [directorio esquema](/esquema/) de este proyecto
+El esquema está disponible en el [directorio esquema](/esquema/) de este proyecto . El archivo [Esquema Semaforo Ruido.fzz](/esquema/Esquema Semaforo Ruido.fzz) puede abrirse con el programa [Fritzing](http://fritzing.org/)
+
+Instalación 
+-----------
+Para un correcto funcionamiento del módulo MP3, es necesario instalar la librería SdFat, disponible en [GoogleCode](http://code.google.com/p/sdfatlib/). Para instalarla sólo es necesario seguir los [pasos definidos para instalar una librería Arduino](http://arduino.cc/es/Reference/Libraries)
 
 Servicio de Instalación
 -----------------------
