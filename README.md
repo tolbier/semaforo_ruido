@@ -1,4 +1,4 @@
-para encontrar  ayuda y documentación, ir a la [Wiki](https://github.com/tolbier/semaforo_ruido/wiki)
+**para encontrar  ayuda y documentación, ir a la [Wiki](https://github.com/tolbier/semaforo_ruido/wiki)**
 
 Semáforo de Ruido OpenSource
 ============================
