@@ -1,5 +1,5 @@
 /*
- relay_handler
+ led_handler
  --------------
      This file is part of SEMAFORO_RUIDO.
 
@@ -16,9 +16,9 @@
     You should have received a copy of the GNU General Public License
     along with SEMAFORO_RUIDO.  If not, see <http://www.gnu.org/licenses/>.
 ---------------    
-    Archivo: relay_handler.ino
-    Fecha:15-MAR-2013
-    Version: 0.74
+    Archivo: led_handler.ino
+    Fecha:20-ENE-2014
+    Version: 0.80
     Autor: Lluis Toyos - info@korama.es - KORAMA Soluciones Digitales - http://korama.es
 
     La funcion de este codigo es manejar los reles del Semaforo de Ruido.
@@ -27,16 +27,10 @@
  */
 #include "Arduino.h"
 
-void init_relay_handler(){
+void init_led_handler(){
     for (int i=0; i<=3;i++) pinMode(rele[i], OUTPUT);  
 }
 
-void changeRele(){
-  int tiempo = millis()/BLINKING_DELAY;
-  //Si tiempo es par
-  for (int i=0; i<=3;i++) digitalWrite(rele[i],(tiempo %8 )>=4);
-    
-}
 
 void activateLevel(int level){
   Serial.print("Activado Nivel: ");
@@ -48,13 +42,15 @@ void activateLevel(int level){
     
     
     activado=(level==i);
-    if (!activado && (i==1)){
-        activado=  (level==i+1); 
+    if (DOUBLE_ORANGE ){
+      if (!activado && (i==1)){
+          activado=  (level==i+1); 
+      }
     }
     digitalWrite(rele[i],activado);
     levelsActivated[i]=activado;
   }
-  if (PLAYMP3_BOOL) playMP3Level(level);
+  playMP3Level(level);
   
   last_activate_time=millis();
 }

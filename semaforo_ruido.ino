@@ -17,29 +17,23 @@
     along with SEMAFORO_RUIDO.  If not, see <http://www.gnu.org/licenses/>.
 ---------------    
     Archivo: semaforo_ruido.ino
-    Fecha:15-MAR-2013
-    Version: 0.74
+    Fecha:20-ENE-2014
+    Version: 0.80
     Autor: Lluis Toyos - info@korama.es - KORAMA Soluciones Digitales - http://korama.es
     
  -------------------
  */
 #define delay_between_last_activation 8000 //tiempo en milisegundos de retardo desde la ultima activacion hasta que se pueda ejecutar la siguiente evaluacion
-#define maxThreshold 110
-#define minThreshold 60
-#define plusMediumThreshold 12 //nivel añadido al umbral calculado inferior  threshold[1] para calcular el threshold[2]
-
-#define PLAYMP3_BOOL 1 // 1- Reproduce sonidos a traves de la tarjeta MP3 Player Arduino Shell 
-                       // 0 - NO Reproduce sonidos a traves de la tarjeta MP3 Player Arduino Shell 
-#define MP3LOG 0           // Imprime en Serial algun registro de log durante la reproduccion MP3
-
-#define BLINKING_ALERT 0   // Si se activa muestra las luces parpadeando un tiempo cuando hay un cambio de sonido
-#define BLINKING_DELAY 100
+                         
 
 #define numberOfLevels 4   //Numero de niveles de sonido
+#define DOUBLE_ORANGE 0   // TO-DO: explicar 
 
-int mic_pin = A3;              //Define en que pin esta conectada la entrada de micro
-int pot_pin[] = {  A0,A1,A2};  //Define en que entradas estan las entradas de los 3 potenciometros
-int rele[]={3,A5,A4,5};       //Define los pins donde estan conectados los 4 reles
+int mic_pins[] = {A0, A1} ;              //Define en que pins estan conectadas las entradas de micro
+int pot_pin[] = {A4,A2,A3};  //Define en que entradas estan las entradas de los 3 potenciometros
+int rele[]={A5,4,5,10};       //Define los pins donde estan conectados los 4 reles
+
+
 
 
 int threshold[]={0,20,40,60};
@@ -50,16 +44,21 @@ boolean levelsActivated[]={1,0,0,0}; //recoge el estado de los 4 reles
 unsigned long last_activate_time;
 
 // Esta rutina se ejecuta al inicio, y cada vez que pulsamos RESET
-void setup() {                
+void setup() {   
+  Serial.begin(57600); //Use serial for debugging 
+  Serial.println("MP3 Testing");  
   init_mp3_player();
-  init_numberOfFilesPerLevel();
-  init_relay_handler();
+ 
+
+  pinMode(A0, INPUT); 
+  pinMode(A1, INPUT);
+  init_led_handler();
 }
 
 // La rutina "loop" se ejecuta una y otra vez indefinidamente :
 void loop() {
 
-  long amplitudeAvg=  (long) getAmplitudeAvg();
+  float amplitudeAvg=   getAmplitudeAvg();
   
   //Si ha pasado el tiempo delay_between_last_activation, evaluamos la AmplitudMedia
   if ((millis() - last_activate_time) > delay_between_last_activation) evaluateAmplitude(amplitudeAvg);
@@ -73,19 +72,15 @@ void loop() {
 
 
 void printSound(long amplitudeAvg){
-  int length = map(amplitudeAvg,0,512,0,160); 
-
-  Serial.print(amplitudeAvg);
-  Serial.print("-");
-  for (int i = 0; i<= length; i++) Serial.print("*");
-  Serial.println();
+  Serial.print(getNoiseDb(amplitudeAvg));
+  Serial.println("dB");
 
 
 }
 void printThresholds(){
   for (int i=0;i<numberOfLevels;i++){
-    Serial.print(threshold[i]);
-    Serial.print(" ");
+    Serial.print(getNoiseDb(threshold[i]));
+    Serial.print("dB ");
   }
   
 }

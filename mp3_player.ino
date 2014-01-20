@@ -17,8 +17,8 @@
     along with SEMAFORO_RUIDO.  If not, see <http://www.gnu.org/licenses/>.
 ---------------    
     Archivo: mp3_player.ino
-    Fecha:15-MAR-2013
-    Version: 0.74
+    Fecha:20-ENE-2014
+    Version: 0.80
     Autor: Lluis Toyos - info@korama.es - KORAMA Soluciones Digitales - http://korama.es
     NOTA:
         Este codigo esta basado en el programa MP3 Player de Nathan Seidle  - Sparkfun
@@ -52,10 +52,14 @@ SdFile track;
 char trackName[] = "12345678.123";
 int trackNumber = 1;
 
+boolean mp3shield_present = false; 
+
 char errorMsg[100]; //This is a generic array used for sprintf of error messages
 
 #define TRUE  0
 #define FALSE  1
+
+#define MP3LOG 0           // Imprime en Serial algun registro de log durante la reproduccion MP3
 
 //MP3 Player Shield pin mapping. See the schematic
 #define MP3_XCS 6 //Control Chip Select Pin (for accessing SPI Control/Status registers)
@@ -87,7 +91,8 @@ char errorMsg[100]; //This is a generic array used for sprintf of error messages
 
 int numberOfFilesPerLevel[numberOfLevels];
 
-void init_mp3_player() {
+int init_mp3_player() {
+  mp3shield_present = false; 
   pinMode(MP3_DREQ, INPUT);
   pinMode(MP3_XCS, OUTPUT);
   pinMode(MP3_XDCS, OUTPUT);
@@ -97,14 +102,22 @@ void init_mp3_player() {
   digitalWrite(MP3_XDCS, HIGH); //Deselect Data
   digitalWrite(MP3_RESET, LOW); //Put VS1053 into hardware reset
 
-  Serial.begin(57600); //Use serial for debugging 
-  Serial.println("MP3 Testing");
+
 
   //Setup SD card interface
-  pinMode(10, OUTPUT);       //Pin 10 must be set as an output for the SD communication to work.
-  if (!card.init(SPI_FULL_SPEED,9))  Serial.println("Error: Card init"); //Initialize the SD card and configure the I/O pins.
-  if (!volume.init(&card)) Serial.println("Error: Volume ini"); //Initialize a volume on the SD card.
-  if (!root.openRoot(&volume)) Serial.println("Error: Opening root"); //Open the root directory in the volume. 
+  pinMode(9, OUTPUT);       //Pin 10 must be set as an output for the SD communication to work.
+  if (!card.init(SPI_FULL_SPEED,9))  {
+    Serial.println("Error: Card init"); //Initialize the SD card and configure the I/O pins.
+    return (1);
+  }
+  if (!volume.init(&card)) {
+    Serial.println("Error: Volume ini"); //Initialize a volume on the SD card.
+    return (2);
+  }
+  if (!root.openRoot(&volume)){
+    Serial.println("Error: Opening root"); //Open the root directory in the volume. 
+    return (3);
+  }
 
   //We have no need to setup SPI for VS1053 because this has already been done by the SDfatlib
 
@@ -118,7 +131,7 @@ void init_mp3_player() {
   digitalWrite(MP3_RESET, HIGH); //Bring up VS1053
   //delay(10); //We don't need this delay because any register changes will check for a high DREQ
 
-  //  Mp3SetVolume(0, 0); //Set initial volume (20 = -10dB) LOUD
+  // Mp3SetVolume(0, 0); //Set initial volume (20 = -10dB) LOUD
   //Mp3SetVolume(40, 40); //Set initial volume (20 = -10dB) Manageable
   //Mp3SetVolume(27, 127); //Set initial volume (20 = -10dB) More quiet
 
@@ -152,6 +165,10 @@ void init_mp3_player() {
   Serial.print("SCI_ClockF = 0x");
   Serial.println(MP3Clock, HEX);
 
+  init_numberOfFilesPerLevel();
+  
+  mp3shield_present=true;
+  return (0);
   //MP3 IC setup complete
 }
 
@@ -200,6 +217,8 @@ void playLevelWarningMp3(int level){
 
 
 void playMP3Level(int level){
+  if (! mp3shield_present) return;
+  
   int numberOfFiles = numberOfFilesPerLevel[level];
   int selectedNumber= random(0,numberOfFiles);
   
@@ -267,7 +286,7 @@ void playMP3(char* fileName) {
         Serial.print(millis() - start_time, DEC);
         Serial.println("ms");
       }
-      if (BLINKING_ALERT) changeRele();
+
       //Look at that! We can actually do quite a lot without the audio glitching
 
       //Now that we've completely emptied the VS1053 buffer (2048 bytes) let's see how much 
@@ -349,7 +368,7 @@ void Mp3SetVolume(unsigned char leftchannel, unsigned char rightchannel){
 
 void setVolumeFromPotenciometro(){
   int sensorValue= analogRead(pot_pin[0]); 
-  int volumeValue= map(sensorValue,0,1024,0,127);
+  int volumeValue= map(sensorValue,1024,0,127,0);
   Mp3SetVolume(volumeValue, volumeValue);
 }
 
