@@ -2,6 +2,7 @@ semaforo_ruido
 ==============
 
 Programa controlador de un Semáforo de Ruido OpenSource realizado sobre Arduino UNO rev3
+![ScreenShot](https://raw.github.com/tolbier/semaforo_ruido/master/PCBs/semaforo_ruido_MainPCB/semaforo_ruido_MainPCB_pcb.jpg)
 
 Este proyecto se encuentra también referenciado en en [blog de Korama](http://www.korama.es/blog/semaforo-de-ruido-open-source/)
 
