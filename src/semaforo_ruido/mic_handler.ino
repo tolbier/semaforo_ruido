@@ -1,6 +1,6 @@
 /*
   mic_handler
- -----------------
+ ----------------- 
      This file is part of SEMAFORO_RUIDO.
 
     SEMAFORO_RUIDO is free software: you can redistribute it and/or modify

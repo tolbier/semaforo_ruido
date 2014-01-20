@@ -1,5 +1,5 @@
 /*
- semaforo_ruido
+ semaforo_ruido 
  ---------------
      This file is part of SEMAFORO_RUIDO.
 

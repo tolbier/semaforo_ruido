@@ -2,7 +2,7 @@
   mp3_player
  -----------------
      This file is part of SEMAFORO_RUIDO.
-
+ 
     SEMAFORO_RUIDO is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
@@ -306,7 +306,7 @@ void playMP3(char* fileName) {
 
     //Once DREQ is released (high) we now feed 32 bytes of data to the VS1053 from our SD read buffer
     digitalWrite(MP3_XDCS, LOW); //Select Data
-    for(int y = 0 ; y < sizeof(mp3DataBuffer) ; y++) {
+    for(int y = 0 ; y < ((int) sizeof(mp3DataBuffer)) ; y++) {
       SPI.transfer(mp3DataBuffer[y]); // Send SPI byte
     }
 

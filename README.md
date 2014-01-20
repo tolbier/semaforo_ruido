@@ -1,41 +1,19 @@
-semaforo_ruido
-==============
+Semáforo de Ruido OpenSource
+============================
+El Semáforo de Ruido "OpenSource" es una instalación que capta el ruido de ambiente y activa un juego de 4 bloques de luces LED (en Verde, Amarillo, Naranja y Rojo) indicando la cantidad de ruido que hay en el ambiente.
 
-Controlador de Semáforo de Ruido OpenSource 
+Asimismo, se puede conectar un [MP3 Player Shield de SPARKFUN](https://www.sparkfun.com/products/10628), para reproducir sonidos al llegar a determinados niveles de ruido.
 
-Los [esquemas y diseños PCB de las placas](https://github.com/tolbier/semaforo_ruido/tree/master/PCBs) están licenciados bajo CC-BY-SA v3.0
-
-
-El [software](https://github.com/tolbier/semaforo_ruido/tree/master/src) está licenciado bajo GNU/GPL v3.0
-
-realizado sobre Arduino UNO rev3
 ![ScreenShot](https://raw.github.com/tolbier/semaforo_ruido/master/PCBs/semaforo_ruido_MainPCB/semaforo_ruido_MainPCB_pcb.jpg)
 
-Este proyecto se encuentra también referenciado en en [blog de Korama](http://www.korama.es/blog/semaforo-de-ruido-open-source/)
+Licencia
+--------
+Los [esquemas y diseños PCB de las placas](https://github.com/tolbier/semaforo_ruido/tree/master/PCBs) están licenciados bajo CC-BY-SA v3.0
+El [software](https://github.com/tolbier/semaforo_ruido/tree/master/src) está licenciado bajo GNU/GPL v3.0
+
+Los [sonidos](https://github.com/tolbier/semaforo_ruido/tree/master/sonidos) incluídos en este proyecto también están licenciados bajo CC-BY-SA 3.0
 
 
-Componentes
------------
-* [Arduino UNO rev3](http://arduino.cc/en/Main/arduinoBoardUno)
-* [SparkFun MP3 Player Shield] (https://www.sparkfun.com/products/10628)
-* [Placa de Prototipos (puede ser la Arduino Proto Shield) ](http://arduino.cc/en/Main/ArduinoProtoShield)
-* 4 x RELÉ 1 CONTACTO 6V.DC
-* 4 x Diodo rectificador 1N4007
-* 4 x Resistencia 1kΩ
-* 4 x Transistores  2.N.3904
 
-Esquema
--------
-El esquema está disponible en el [directorio esquema](/esquema/) de este proyecto . El archivo [Esquema Semaforo Ruido.fzz](/esquema/Esquema Semaforo Ruido.fzz) puede abrirse con el programa [Fritzing](http://fritzing.org/)
 
-Instalación 
------------
-Para un correcto funcionamiento del módulo MP3, es necesario instalar la librería SdFat, disponible en [GoogleCode](http://code.google.com/p/sdfatlib/). Para instalarla sólo es necesario seguir los [pasos definidos para instalar una librería Arduino](http://arduino.cc/es/Reference/Libraries)
-
-Servicio de Instalación
------------------------
-Los centros educativos que estén interesados en contratar la instalación del “Semáforo de Ruido” pueden ponerse en contacto con :
-* [KORAMA Soluciones Digitales](http://korama.es)
-* Email: info@korama.es
-* Teléfono:  (+34) 626568403 - (+34) 985947698
 
