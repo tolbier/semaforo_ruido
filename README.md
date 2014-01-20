@@ -11,6 +11,7 @@ Asimismo, se puede conectar un [MP3 Player Shield de SPARKFUN](https://www.spark
 Licencia
 --------
 Los [esquemas y diseños PCB de las placas](https://github.com/tolbier/semaforo_ruido/tree/master/PCBs) están licenciados bajo CC-BY-SA v3.0
+
 El [software](https://github.com/tolbier/semaforo_ruido/tree/master/src) está licenciado bajo GNU/GPL v3.0
 
 Los [sonidos](https://github.com/tolbier/semaforo_ruido/tree/master/sonidos) incluídos en este proyecto también están licenciados bajo CC-BY-SA 3.0
