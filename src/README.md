@@ -35,13 +35,5 @@ Esquema
 -------
 El esquema está disponible en el [directorio esquema](/esquema/) de este proyecto . El archivo [Esquema Semaforo Ruido.fzz](/esquema/Esquema Semaforo Ruido.fzz) puede abrirse con el programa [Fritzing](http://fritzing.org/)
 
-Instalación 
------------
-Para un correcto funcionamiento del módulo MP3, es necesario instalar la librería SdFat, disponible en [GoogleCode](http://code.google.com/p/sdfatlib/). Para instalarla sólo es necesario seguir los [pasos definidos para instalar una librería Arduino](http://arduino.cc/es/Reference/Libraries)
 
-Servicio de Instalación
------------------------
-Los centros educativos que estén interesados en contratar la instalación del “Semáforo de Ruido” pueden ponerse en contacto con :
-* [KORAMA Soluciones Digitales](http://korama.es)
-* Email: info@korama.es
-* Teléfono:  (+34) 626568403 - (+34) 985947698
+

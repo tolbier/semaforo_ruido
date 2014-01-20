@@ -1,3 +1,5 @@
+para encontrar  ayuda y documentación, ir a la [Wiki](https://github.com/tolbier/semaforo_ruido/wiki)
+
 Semáforo de Ruido OpenSource
 ============================
 El Semáforo de Ruido "OpenSource" es una instalación que capta el ruido de ambiente y activa un juego de 4 bloques de luces LED (en Verde, Amarillo, Naranja y Rojo) indicando la cantidad de ruido que hay en el ambiente.
