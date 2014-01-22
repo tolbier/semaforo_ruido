@@ -1,4 +1,4 @@
-**para encontrar  ayuda y documentación, ir a la [Wiki](https://github.com/tolbier/semaforo_ruido/wiki)**
+**para encontrar  ayuda y documentación, visita la [Wiki del proyecto](https://github.com/tolbier/semaforo_ruido/wiki)**
 
 Semáforo de Ruido OpenSource
 ============================
@@ -26,5 +26,5 @@ Los [sonidos](https://github.com/tolbier/semaforo_ruido/tree/master/sonidos) inc
 Todos los textos incluídos en este proyecto están licenciados bajo [CC-BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/es/)
 
 
-
+**para encontrar  ayuda y documentación, visita la [Wiki del proyecto](https://github.com/tolbier/semaforo_ruido/wiki)**
 
